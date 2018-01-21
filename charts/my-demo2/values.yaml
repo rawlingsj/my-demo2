@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: jenkinsx/my-demo2
-  tag: dev
+  repository: 10.110.92.6:5000/jenkinsx/my-demo2
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: java
